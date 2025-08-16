@@ -1,0 +1,30 @@
+/* Hero section */
+.hero-section {
+background-image: url('/Hero_photo.jpg'); /* 👈 leading slash is IMPORTANT */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh !important; /* full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  
+ 
+  padding: 50px !important;
+}
+
+.hero-subtitle {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  color: #d4af37; /* Gold color */
+}
+ 
+
+.btn-warning {
+  background-color: #f6c56f !important;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0b35a !important;
+}

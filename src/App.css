@@ -1,0 +1,77 @@
+*{
+    font-family: 'Lato', sans-serif ;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: rgb(38, 78, 78);
+}
+
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(to right, #0d0d0d, #1a1a1a);
+  min-height: 100vh;
+  padding-top: 100px;
+}
+
+.hero-subtitle {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  color: #d4af37; /* Gold color */
+}
+
+.hero-image {
+  max-width: 450px;
+  border-radius: 10px;
+}
+
+.btn-warning {
+  background-color: #f6c56f !important;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0b35a !important;
+}
+
+
+
+/* About section */
+.about-section {    
+  line-height: 1.8;
+}
+
+.about-section h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.about-section h2 span {
+  color: #ffc107;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #ddd;
+}
+
+.about-section a.btn-outline-warning {
+  font-weight: 600;
+  padding: 10px 22px;
+  letter-spacing: 0.5px;
+  border-width: 2px;
+}
+
+.about-section img {
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+/* Footer */

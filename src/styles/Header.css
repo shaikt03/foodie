@@ -1,0 +1,21 @@
+/* Smooth transition */
+.navbar {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* When transparent at top */
+.navbar.bg-transparent {
+  background: transparent !important;
+  box-shadow: none;
+}
+
+.navbar.bg-transparent .navbar-brand,
+.navbar.bg-transparent .nav-link,
+.navbar.bg-transparent .btn {
+  color: white !important;  /* White text on hero */
+}
