@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/hero.css";
-
+import heroImage from "../assets/Hero_photo.jpg";
 
 const Hero = () => {
   return (
-    <section className="hero-section d-flex align-items-center">
+    <section 
+    style={{ backgroundImage: `url(${heroImage})` }}
+    className="hero-section d-flex align-items-center">
       <div className="container">
         <div className=" row align-items-center">
           {/* Left Column - Text */}

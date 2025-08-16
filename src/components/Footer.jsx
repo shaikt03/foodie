@@ -13,7 +13,7 @@ const Footer = () => {
                 <i className="bi bi-geo-alt-fill text-danger me-2"></i>
                 <span className="fw-bold text-warning">Our Address :</span><br />
                 Nandigama<br />
-                4-40,Main Road, Shadnagar<br />
+                Shadnagar<br />
                 Telangana - 509228, India
               </p>
               <p>

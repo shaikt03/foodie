@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <header
       className={`navbar navbar-expand-lg fixed-top ${
-        scrolled ? "navbar-light bg-white shadow-sm" : "navbar-dark bg-transparent"
+        scrolled ? "navbar-dark bg-dark shadow-sm" : "navbar-dark bg-transparent"
       }`}
     >
       <div className="container">

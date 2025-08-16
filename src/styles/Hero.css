@@ -1,6 +1,6 @@
 /* Hero section */
 .hero-section {
-background-image: url('/Hero_photo.jpg'); /* 👈 leading slash is IMPORTANT */
+/* background-image: url('/Hero_photo.jpg'); 👈 leading slash is IMPORTANT */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

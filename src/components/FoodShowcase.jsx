@@ -1,24 +1,27 @@
 import React from "react";
-
+import Gril from "../assets/grilled.jpg";
+import Chocolate from "../assets/cololate.jpg";
+import Cake from "../assets/plum.jpg";
+import Spaghetti from "../assets/Spaghetti Carbonara.jpg";
 const FoodShowcase = () => {
   const foodItems = [
     {
-      img: "https://images.unsplash.com/photo-1606788075761-7d7c7f92b1da?auto=format&fit=crop&w=800&q=80",
+      img:  Chocolate,
       title: "Hot Chocolate",
       category: "Beverage",
     },
     {
-      img: "https://images.unsplash.com/photo-1588345921523-4b1b7bfa2a9a?auto=format&fit=crop&w=800&q=80",
+      img: Cake,
       title: "Plum Cake",
       category: "Desserts",
     },
     {
-      img: "https://images.unsplash.com/photo-1604908177275-1e9643e7ef27?auto=format&fit=crop&w=800&q=80",
+      img: Spaghetti,
       title: "Spaghetti Carbonara",
       category: "Pasta",
     },
     {
-      img: "https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=800&q=80",
+      img:  Gril,
       title: "Grilled Prawns",
       category: "Seafood",
     },
